@@ -73,7 +73,7 @@ jobs:
           path: app-artifact
       
       - name: Download API Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: api
           path: api-artifact
