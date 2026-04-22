@@ -67,7 +67,7 @@ jobs:
 
     steps:
       - name: Download APP Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: app
           path: app-artifact
